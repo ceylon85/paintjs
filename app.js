@@ -93,6 +93,8 @@ function handleSaveClick() {
 
 function canvasClear() {
     ctx.clearRect(0, 0, CANVAS_SIZE, CANVAS_SIZE);
+    ctx.strokeStyle = INITIAL_COLOR;
+    range.value = 2.5;
 }
 
 if (canvas) {
